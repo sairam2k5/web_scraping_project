@@ -1,0 +1,47 @@
+# Web Scraping and Data Analysis of Online Book Store
+
+## Introduction
+
+Web scraping is the process of extracting data from websites. This project collects book information from an online bookstore and performs basic data analysis.
+
+## Objective
+
+To build a dataset containing book titles, prices, and availability using Python.
+
+## Tools and Technologies
+
+* Python
+* Requests
+* BeautifulSoup
+* Pandas
+* Matplotlib
+
+## Methodology
+
+1. Accessed website pages using Requests.
+2. Parsed HTML using BeautifulSoup.
+3. Extracted title, price, and availability.
+4. Scraped 50 pages and collected 1000 records.
+5. Stored data in CSV format.
+6. Cleaned and analyzed the dataset using Pandas.
+7. Generated charts using Matplotlib.
+
+## Dataset Description
+
+Fields:
+
+* Title
+* Price
+* Availability
+
+Total Records: 1000
+
+## Results
+
+* Average Price: 35.07
+* Highest Price: 59.99
+* Lowest Price: 10.00
+
+## Conclusion
+
+The project successfully demonstrated data collection, cleaning, analysis, and visualization techniques using Python.
